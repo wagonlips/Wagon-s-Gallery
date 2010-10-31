@@ -12,8 +12,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/blueprint-wp.css" type="text/css" media="screen, projection">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/print.css" type="text/css" media="print">
 
-	<!-- To use a custom stylesheet, uncomment the next line: -->
-	<!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/custom.css" type="text/css" media="screen, projection"> -->
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/wagon-styles.css" type="text/css" media="screen, projection">
 
 	<!-- Javascripts  -->
 	<!-- <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.1.3.1.pack.js"></script> -->
