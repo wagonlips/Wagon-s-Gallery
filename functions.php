@@ -3,8 +3,44 @@
 /*-----------------------------------------------------------------------------
 	Widget Support
 -----------------------------------------------------------------------------*/
-if ( function_exists('register_sidebar') )
-    register_sidebar();
+function wagons_widgets_init() {
+	// Area 1, located at the top of the sidebar.
+	register_sidebar( array(
+		'name' => __( 'Primary Widget Area', 'wagons' ),
+		'id' => 'primary-widget-area',
+		'description' => __( 'The primary widget area', 'wagons' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	// Area 2, located in the footer. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Footer Widget Area', 'wagons' ),
+		'id' => 'footer-widget-area',
+		'description' => __( 'The footer widget area', 'wagons' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	// Area 3, located in the header. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Header Widget Area', 'wagons' ),
+		'id' => 'widgets-top',
+		'description' => __( 'The header widget area', 'wagons' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+}
+/** Register sidebars by running wagons_widgets_init() on the widgets_init hook. */
+add_action( 'widgets_init', 'wagons_widgets_init' );
+
 
 /*-----------------------------------------------------------------------------
 	Display Post Template

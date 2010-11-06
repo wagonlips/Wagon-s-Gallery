@@ -2,10 +2,13 @@
 	
 		<ul>
 			<?php 	/* Widgetized sidebar, if you have the plugin installed. */
-					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
-			<li>
-				<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-			</li>
+if ( ! get_post_custom_values('hidesidebar1') && is_active_sidebar('primary-widget-area') ): ?>
+
+	<div id="primary-widget-area" class="widgets primary">
+		<?php dynamic_sidebar('primary-widget-area'); ?>
+	</div><!-- #primary-widget-area -->
+
+<?php endif; ?>
 
 			<!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
 			<li><h2>Author</h2>

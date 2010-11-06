@@ -20,6 +20,11 @@
 					<p class="small">
 						<?php the_time('F jS, Y') ?> &nbsp;|&nbsp; 
 						<!-- by <?php the_author() ?> -->
+                                                <?php  $mykey_values = get_post_custom_values('product_type');
+                                                    foreach ( $mykey_values as $key => $value ) {
+                                                        echo $value; 
+                                                } ?>
+
 						Published in
 						<?php
 
