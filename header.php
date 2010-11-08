@@ -41,9 +41,6 @@
 	<!-- Header -->
   <div class="column span-12 first" id="header">
 
-					<!-- Search -->
-					<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-					
 					<!-- Site Name -->
 					<a href="<?php echo get_option('home'); ?>/" class="logo"></a>
 					<h1><?php bloginfo('name'); ?></h1>
