@@ -2,9 +2,11 @@
 
 		<div id="colophon">
 
-<?php
-	get_sidebar( 'footer' );
-?>
+	<?php if ( is_active_sidebar('footer-widget-area') ) : ?>
+	<div id="footer-widget-area" class="widgets"><ul>
+		<?php dynamic_sidebar('footer-widget-area'); ?>
+	</ul></div>
+	<?php endif; ?>
 
 		&copy;<?php echo date(Y); ?> <?php bloginfo('name'); ?><br />
 		Powered by <a href="http://wordpress.org/">WordPress</a> using <a href="http://www.fireandknowledge.org/blueprint/">Blueprint</a>.
