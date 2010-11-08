@@ -50,9 +50,9 @@
 					<!-- If not using logo:
           <a href="<?php echo get_option('home'); ?>/" class="logo"><h1><?php bloginfo('name'); ?></h1></a> -->
 					<div class="description"><?php bloginfo('description'); ?></div>
-	<div id="widgets-top" class="widgets">
+	<div id="widgets-top" class="widgets"><ul>
 		<?php dynamic_sidebar('widgets-top'); ?>
-	</div>
+        </ul></div>
   </div> <!-- #header -->
 
 	
