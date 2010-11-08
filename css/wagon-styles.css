@@ -38,3 +38,16 @@ a:hover      { color: #7B0F0F; }
 #subnav li.current_page_item a,
 #subnav li a:hover   { color: #F2FFDF; }
 ****/
+
+/* Don't hide search from sidebar */
+#sidebar #search { display: block; }
+/* Don't float search */
+#search { float: none; }
+#search #s { 
+  background: white url('../images/icons/search_grey.gif') 0px center no-repeat;
+  padding: 2px 0 2px 17px; 
+  width: 135px; 
+  color: #CCCCCC; 
+  font-size: 0.9em; 
+  margin-right: 20px;
+  }
