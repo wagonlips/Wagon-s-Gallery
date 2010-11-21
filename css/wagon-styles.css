@@ -1,7 +1,9 @@
 
-/****
-.container     {  }
+.container     {  
+  width:950px;
+}
 
+/****
 a         { color: #00487D; }
 a:hover      { color: #7B0F0F; }
 ****/
