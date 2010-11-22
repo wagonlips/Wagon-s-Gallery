@@ -36,7 +36,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container showgrid">
 
 	<!-- Header -->
   <div class="column span-24 first" id="header">
