@@ -1,4 +1,4 @@
-<div class="column span-3 last" id="sidebar">
+<div class="column span-6 last" id="sidebar">
 	
 		<ul id="primary-widget-area" class="widgets primary">
 <?php /* Widgetized sidebar */

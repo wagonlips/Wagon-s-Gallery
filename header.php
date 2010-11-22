@@ -39,7 +39,7 @@
 <div class="container">
 
 	<!-- Header -->
-  <div class="column span-12 first" id="header">
+  <div class="column span-24 first" id="header">
 
 					<!-- Site Name -->
 					<a href="<?php echo get_option('home'); ?>/" class="logo"></a>
@@ -54,7 +54,7 @@
 
 	
 	<!-- Navigation -->
-  <div class="column span-12 first large" id="nav">
+  <div class="column span-24 first large" id="nav">
 			<div class="content">
 				<ul>
 					<li class="<?php if (((is_home()) && !(is_paged())) or (is_archive()) or (is_single()) or (is_paged()) or (is_search())) { ?>current_page_item<?php } else { ?>page_item<?php } ?> first"><a href="<?php echo get_settings('home'); ?>">Home</a></li>
