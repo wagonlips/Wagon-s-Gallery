@@ -20,34 +20,60 @@ http://www.famfamfam.com/lab/icons/silk/
 
 */
 
-.aligncenter {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+/* Wagon Styles */
+body {
+  background:white url('images/julia-background.jpg');
 }
 
-.alignright {
-    float: right;
+.container     {  
+  width:950px;
 }
 
-.alignleft {
-    float: left;
+/****
+a         { color: #00487D; }
+a:hover      { color: #7B0F0F; }
+****/
+
+/*-----------------------------------------------------------------------------
+  Header
+  Add a graphic logo, using the following CSS
+-----------------------------------------------------------------------------*/
+#header {
+  background: url('images/my-awesome-store.gif') 0px 0px no-repeat;
+  height: 100px;
 }
 
-img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+#header h1 { display: none;  }
+#header .description { display: none; }
 
-img.alignright {
-    padding: 4px;
-    margin: 0 0 2px 7px;
-    display: inline;
-}
+/*-----------------------------------------------------------------------------
+  Navigation Colors
+  Customize the navbar with this CSS
+-----------------------------------------------------------------------------*/
 
-img.alignleft {
-    padding: 4px;
-    margin: 0 7px 2px 0;
-    display: inline;
-}
+/****
+#nav, #subnav  { background: #668040; }
+
+#nav li.current_page_item a,
+#nav li a:hover   { background: #F2FFDF; color: #FFF;}
+
+#nav li a,
+#subnav li a   { color: #F2FFDF; }
+
+#nav li.current_page_item a,
+#subnav li.current_page_item a,
+#subnav li a:hover   { color: #F2FFDF; }
+****/
+
+/* Don't hide search from sidebar */
+#sidebar #search { display: block; }
+/* Don't float search */
+#search { float: none; }
+#search #s { 
+  background: white url('images/icons/search_grey.gif') 0px center no-repeat;
+  padding: 2px 0 2px 17px; 
+  width: 135px; 
+  color: #CCCCCC; 
+  font-size: 0.9em; 
+  margin-right: 20px;
+  }
