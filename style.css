@@ -51,19 +51,26 @@ a:hover      { color: #7B0F0F; }
   Customize the navbar with this CSS
 -----------------------------------------------------------------------------*/
 
-/****
-#nav, #subnav  { background: #668040; }
+#nav, #subnav  { xbackground: #668040; }
 
 #nav li.current_page_item a,
-#nav li a:hover   { background: #F2FFDF; color: #FFF;}
+#nav li a:hover   { background: #99CC99; color: #669966;}
 
 #nav li a,
-#subnav li a   { color: #F2FFDF; }
+#subnav li a   { color: #669966; }
 
 #nav li.current_page_item a,
 #subnav li.current_page_item a,
-#subnav li a:hover   { color: #F2FFDF; }
-****/
+#subnav li a:hover   { color: #669966; }
+
+/* Resetting styles from tabs.css */
+.tabs {
+  border-bottom:none;
+  }
+
+.tabs li {
+  float:right;
+  }
 
 /* Don't hide search from sidebar */
 #sidebar #search { display: block; }
