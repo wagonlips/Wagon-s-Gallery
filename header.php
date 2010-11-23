@@ -42,7 +42,7 @@
       <div class="content">
         <ul class="tabs">
           <li class="<?php if (((is_home()) && !(is_paged())) or (is_archive()) or (is_single()) or (is_paged()) or (is_search())) { ?>current_page_item<?php } else { ?>page_item<?php } ?> first"><a href="<?php echo get_settings('home'); ?>">Home</a></li>
-          <?php wp_list_pages('sort_column=menu_order&depth=1&title_li='); ?>
+          <?php wp_nav_menu(  array( 'theme_location' => 'header-menu' ));  ?> 
         </ul>
       </div>
   </div>

@@ -9,9 +9,6 @@ Author URI: http://www.computerdemon.com
 
 Credits:
 
-Based on the Blueprint Theme:
-Theme URI: http://www.fireandknowledge.org/blueprint/
-
 Based on the Blueprint CSS Framework:
 http://code.google.com/p/blueprintcss/
 
@@ -29,15 +26,6 @@ body {
   width:950px;
 }
 
-/****
-a         { color: #00487D; }
-a:hover      { color: #7B0F0F; }
-****/
-
-/*-----------------------------------------------------------------------------
-  Header
-  Add a graphic logo, using the following CSS
------------------------------------------------------------------------------*/
 #header {
   background: url('images/my-awesome-store.gif') 0px 0px no-repeat;
   height: 100px;
@@ -45,32 +33,6 @@ a:hover      { color: #7B0F0F; }
 
 #header h1 { display: none;  }
 #header .description { display: none; }
-
-/*-----------------------------------------------------------------------------
-  Navigation Colors
-  Customize the navbar with this CSS
------------------------------------------------------------------------------*/
-
-#nav, #subnav  { xbackground: #668040; }
-
-#nav li.current_page_item a,
-#nav li a:hover   { background: #99CC99; color: #669966;}
-
-#nav li a,
-#subnav li a   { color: #669966; }
-
-#nav li.current_page_item a,
-#subnav li.current_page_item a,
-#subnav li a:hover   { color: #669966; }
-
-/* Resetting styles from tabs.css */
-.tabs {
-  border-bottom:none;
-  }
-
-.tabs li {
-  float:right;
-  }
 
 /* Don't hide search from sidebar */
 #sidebar #search { display: block; }
