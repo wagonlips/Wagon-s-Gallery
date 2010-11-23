@@ -39,9 +39,7 @@
   
   <!-- Navigation -->
   <div class="column span-24 first large" id="nav">
-      <div class="content">
           <?php wp_nav_menu(  array( 'theme_location' => 'header-menu' ));  ?> 
-      </div>
   </div>
   <!-- End Navigation -->
 
