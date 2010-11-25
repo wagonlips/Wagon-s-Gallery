@@ -38,26 +38,30 @@ ul, ol {
   list-style-type:none;
   }
 
+/* =Menu
+-------------------------------------------------------------- */
+
 #nav {
-	background: #000;
+	background: #FFF;
 	display: block;
-	float: left;
+	float: right;
 	margin: 0 auto;
+	width: 940px;
 }
 #nav .menu-header,
-div.menu {
+.menu {
 	font-size: 13px;
 	margin-left: 12px;
 	width: 928px;
 }
 #nav .menu-header ul,
-div.menu ul {
+.menu ul {
 	list-style: none;
 	margin: 0;
 }
 #nav .menu-header li,
-div.menu li {
-	float: left;
+.menu li {
+	float: right;
 	position: relative;
 }
 #nav a {
@@ -75,7 +79,7 @@ div.menu li {
 	position: absolute;
 	top: 38px;
 	left: 0;
-	float: left;
+	float: right;
 	width: 180px;
 	z-index: 99999;
 }
@@ -87,7 +91,7 @@ div.menu li {
 	top: 0;
 }
 #nav ul ul a {
-	background: #333;
+	background: #ddd;
 	line-height: 1em;
 	padding: 10px;
 	width: 160px;
@@ -95,8 +99,8 @@ div.menu li {
 }
 #nav li:hover > a,
 #nav ul ul :hover > a {
-	background: #333;
-	color: red;
+	background: #ddd;
+	color: #fff;
 }
 #nav ul li:hover > ul {
 	display: block;
@@ -105,14 +109,15 @@ div.menu li {
 #nav ul li.current-menu-ancestor > a,
 #nav ul li.current-menu-item > a,
 #nav ul li.current-menu-parent > a {
-	color: #fff;
+	color: #777;
 }
 * html #nav ul li.current_page_item a,
 * html #nav ul li.current-menu-ancestor a,
 * html #nav ul li.current-menu-item a,
 * html #nav ul li.current-menu-parent a,
 * html #nav ul li a:hover {
-	color: #fff;
+	color: #777;
 }
 
-
+.menu-header-navigation-container {
+    }
