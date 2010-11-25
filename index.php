@@ -2,7 +2,7 @@
 
 <div id="page">
 
-	<div class="column span-18 first" id="maincontent">
+	<div class="column span-24 first" id="maincontent">
 
 		<div class="content">
 
