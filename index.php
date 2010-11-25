@@ -28,8 +28,6 @@
 		</div> <!-- /content -->
 	</div> <!-- /maincontent-->
 	
-<?php get_sidebar(); ?>
-
 </div> <!-- /page -->
 
 <?php get_footer(); ?>
