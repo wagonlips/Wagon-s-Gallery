@@ -27,7 +27,7 @@ body {
 }
 
 #header {
-  background: url('images/my-awesome-store.gif') 0px 0px no-repeat;
+  background: url('images/my-awesome-store.gif') 35px 0px no-repeat;
   height: 100px;
 }
 
@@ -41,6 +41,7 @@ ul, ol {
 .post {
   background:white;
   margin-right:20px;
+  overflow:hidden;
   }
 
 /* =Menu
