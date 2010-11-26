@@ -8,7 +8,7 @@ Template Name: Archives
 
 <div id="page">
 
-	<div class="column span-18 first" id="maincontent">
+	<div class="column span-17 prepend-1 first" id="maincontent">
 
 		<div class="content">
 

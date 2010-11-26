@@ -1,4 +1,4 @@
-	<div id="footer">
+	<div id="footer" class="span-22 append-1 prepend-1 last">
 
 		<div id="colophon">
 

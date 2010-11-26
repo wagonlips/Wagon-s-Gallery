@@ -2,7 +2,7 @@
 
 <div id="page">
 
-	<div class="column span-24 first" id="maincontent">
+	<div class="column span-22 append-1 prepend-1 last" id="maincontent">
 
 		<div class="content">
 

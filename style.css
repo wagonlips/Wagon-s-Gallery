@@ -40,6 +40,7 @@ ul, ol {
 
 .post {
   background:white;
+  margin-right:20px;
   }
 
 /* =Menu
@@ -49,14 +50,11 @@ ul, ol {
 	background: #FFF;
 	display: block;
 	float: right;
-	margin: 0 auto;
-	width: 940px;
 }
 #nav .menu-header,
 .menu {
 	font-size: 13px;
 	margin-left: 12px;
-	width: 928px;
 }
 #nav .menu-header ul,
 .menu ul {

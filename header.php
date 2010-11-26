@@ -38,13 +38,13 @@
 <div class="container showgrid">
   
   <!-- Navigation -->
-  <div class="column span-24 first large" id="nav">
+  <div class="column span-22 append-1 prepend-1 last" id="nav">
           <?php wp_nav_menu(  array( 'theme_location' => 'header-menu' ));  ?> 
   </div>
   <!-- End Navigation -->
 
   <!-- Header -->
-  <div class="column span-24 first" id="header">
+  <div class="column span-22 append-1 prepend-1 last" id="header">
 
           <!-- Site Name -->
           <a href="<?php echo get_option('home'); ?>/" class="logo"></a>
