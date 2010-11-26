@@ -41,7 +41,12 @@ ul, ol {
 .post {
   background:white;
   margin-right:20px;
+  margin-bottom:20px;
   overflow:hidden;
+  }
+
+.post p.small.home {
+  height:35px;
   }
 
 /* =Menu
