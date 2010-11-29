@@ -67,3 +67,11 @@ function register_my_menus() {
 }
 /* Register the menu. */
 add_action( 'init', 'register_my_menus' );
+
+/* function to enable automatically cropped thumbs */
+if (function_exists('add_theme_support')) {
+  add_theme_support('post-thumbnails');
+}
+set_post_thumbnail_size( 249, 154, true ); // 249 pixels wide by 154 pixels tall, hard crop mode
+
+?>

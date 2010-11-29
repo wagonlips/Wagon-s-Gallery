@@ -13,6 +13,13 @@
 				
 				// Don't show featured item
 				//if ($post->ID == $featuredID) continue;
+                                if ( has_post_thumbnail() ) {
+                                  // the current post has a thumbnail
+                                  the_post_thumbnail();
+                                } else {
+                                  // the current post lacks a thumbnail
+                                }
+
 				
 				while (have_posts()) : the_post();
 				
